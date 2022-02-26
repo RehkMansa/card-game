@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000;
+    width: 100vh;
+    height: 100vw;
+    color: #074949
+}
+
+#main {
+    width: 90vw;
+    height: 90vh;
+    box-shadow: 0 0 0 3px #090fcd;
+    margin: 5% 10%;
+}
+
+#main>div {
+    position: relative;
+    height: 35%;
+    box-shadow: 0 0 0 3px #090fcd;
+    width: 80%;
+    left: 10%;
+}
+
+#computer-section {
+    top: 0%;
+}
+
+#player-section {
+    top: 30%;
+}
+
+#player-card-section,
+#computer-card-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    outline: 1px solid #90a;
+    width: 20%;
+    height: 100%;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #090fcd;
+}
+
+#active {
+    /* position: absolute; */
+    left: 0%;
+    margin-bottom:30%;
+    background-color: red;
+    animation: card-active 0.6s linear 1;
+}
+
+@keyframes card-active {
+    0% {
+        margin-bottom:0%;
+    }50% {
+        margin-bottom:10%;
+    }75%{
+        margin-bottom: 20;
+    }
+    100% {
+        margin-bottom:30%;
+    }
+}

@@ -1,0 +1,57 @@
+Things to code to make the game happen
+-Levels
+-Cards
+-Stamina
+-Health
+//game mechanics
+    -Cards
+        -Attack 
+            -
+        -Defense
+            -
+        -Special
+
+//Front end
+    -div main
+        -player half div
+        -computer/ai div
+        -card clash div
+
+//Game Logic
+
+
+Theme  
+
+Graphics
+
+User Input
+
+Animation/Logic Loop
+
+State Tracking
+
+A.I
+
+central div
+player - opponent
+
+player card deck - active cards
+an option to end turn
+score and health
+
+enemy score-
+enemy health
+hidden card deck a.i generated
+
+
+game div
+
+player card div
+
+//goal, clear your card before the timer runs out or health points finish
+// incase where players 
+//coin toss decides who goes first 
+
+//if you play 5 attack and computer plays 12 Defense
+
+//the computer would always check your input and play its best
